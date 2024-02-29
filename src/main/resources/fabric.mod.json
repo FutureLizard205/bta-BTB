@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "betterthanbarrels",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Better Than Barrels!",
+  "description": "This mod adds barrels to BTA!",
   "authors": [
-    "Turnip Labs"
+    "FutureLizard205"
   ],
   "contact": {
     "homepage": "",
@@ -19,20 +19,20 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+			"fl205.betterthanbarrels.BetterThanBarrels"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"fl205.betterthanbarrels.BetterThanBarrels"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"fl205.betterthanbarrels.BetterThanBarrels"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"fl205.betterthanbarrels.BetterThanBarrels"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+      "betterthanbarrels.mixins.json"
   ],
 
   "depends": {
