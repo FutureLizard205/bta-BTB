@@ -1,0 +1,31 @@
+{
+  "textures": {
+    "side": "betterthanbarrels:block/woodenbarrelside",
+    "front": "betterthanbarrels:block/woodenbarrelfront",
+    "back": "betterthanbarrels:block/woodenbarrelback",
+    "particle": "#side"
+  },
+  "elements": [
+    {
+      "name": "wooden_barrel_body",
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 16], "texture": "#front", "cullface": "north"},
+        "east": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "east"},
+        "south": {"uv": [0, 0, 16, 16], "texture": "#back", "cullface": "south"},
+        "west": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "west"},
+        "down": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "down"}
+      }
+    },
+    {
+      "name": "top",
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "rotation": {"angle": 90, "axis": "y", "origin": [8, 8, 8]},
+      "faces": {
+        "up": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "up"}
+      }
+    }
+  ]
+}
