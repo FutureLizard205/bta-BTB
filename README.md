@@ -6,3 +6,4 @@ Still a WIP!
 
 ## Dependencies for latest version:
 - [HalpLibe](https://github.com/Turnip-Labs/bta-halplibe) >= 3.4.1
+- [DragonFly](https://github.com/UselessSolutions/DragonFly) >= 1.4.4-7.1
