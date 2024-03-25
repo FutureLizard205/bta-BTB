@@ -5,5 +5,5 @@ A simple mod that adds barrels for bulk storage to [Minecraft Better Than Advent
 Still a WIP!
 
 ## Dependencies for latest version:
-- [HalpLibe](https://github.com/Turnip-Labs/bta-halplibe) >= 3.4.1
-- [DragonFly](https://github.com/UselessSolutions/DragonFly) >= 1.4.4-7.1
+- [HalpLibe](https://github.com/Turnip-Labs/bta-halplibe) >= 3.4.17
+- [DragonFly](https://github.com/UselessSolutions/DragonFly) >= 1.4.5-7.1

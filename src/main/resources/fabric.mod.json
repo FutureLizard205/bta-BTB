@@ -19,10 +19,16 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "fl205.betterthanbarrels.BetterThanBarrelsMain"
+			"fl205.betterthanbarrels.BetterThanBarrels"
     ],
+		"beforeGameStart": [
+			"fl205.betterthanbarrels.BetterThanBarrels"
+		],
+		"afterGameStart": [
+			"fl205.betterthanbarrels.BetterThanBarrels"
+		],
 		"recipesReady": [
-			"fl205.betterthanbarrels.BetterThanBarrelsMain"
+			"fl205.betterthanbarrels.BetterThanBarrels"
 		]
 	},
   "mixins": [
