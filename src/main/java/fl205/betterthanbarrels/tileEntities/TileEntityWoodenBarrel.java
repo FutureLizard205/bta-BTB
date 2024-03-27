@@ -10,6 +10,8 @@ import net.minecraft.core.player.inventory.IInventory;
 public class TileEntityWoodenBarrel extends TileEntity implements IInventory {
 	private ItemStack barrelContents;
 
+	private int timer;
+
 	public TileEntityWoodenBarrel() {
 	}
 
@@ -103,4 +105,18 @@ public class TileEntityWoodenBarrel extends TileEntity implements IInventory {
 
 	@Override
 	public void sortInventory() {}
+
+	@Override
+	public void tick() {
+		if (timer > 0)
+			timer--;
+	}
+
+	public void setTimer(int value) {
+		timer = value;
+	}
+
+	public int readTimer() {
+		return timer;
+	}
 }
